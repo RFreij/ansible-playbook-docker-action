@@ -82,7 +82,6 @@ else
   fi
 
   ansible-galaxy install --force \
-    ${ROLES_PATH} \
     -r ${REQUIREMENTS} \
     ${VERBOSITY}
 fi
